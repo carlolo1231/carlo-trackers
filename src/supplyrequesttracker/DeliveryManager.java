@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
-
+//updated
 public class DeliveryManager {
     private config con = new config();
     private Scanner scanner;
@@ -14,7 +14,6 @@ public class DeliveryManager {
     public DeliveryManager(Scanner scanner) {
         this.scanner = scanner;
     }
-
    
 
   public void addDelivery() {
